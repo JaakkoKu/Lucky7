@@ -70,7 +70,7 @@ public class Lucky7 {
 
         }
           
-    System.out.println("Game over! You have " + money + "e.");
+    System.out.println("Game over! You have " + money + "e. If you want to play again, run the program again!");
         scanner.close();
         
         }
