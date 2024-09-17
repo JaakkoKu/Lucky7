@@ -43,7 +43,7 @@ public class Lucky7 {
             money +=5;
         }
 
-        if (Win == 3)
+        else if (Win == 3)
         {
             money +=10;
             System.out.println("You hit the Jackpot of 10e!");
