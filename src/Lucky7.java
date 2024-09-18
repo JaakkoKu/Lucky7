@@ -23,12 +23,14 @@ public class Lucky7 {
         int die1 = generator.nextInt(10) +1;
         int die2 = generator.nextInt(10) +1;
         int die3 = generator.nextInt(10) +1;
+        int die4 = generator.nextInt(10) +1;
 
-        System.out.println(die1 + ", "+ die2 + ", " + die3); //Printtaa numerot
+        System.out.println(die1 + ", "+ die2 + ", " + die3 + ", " + die4); //Printtaa numerot
         int Win = 0;
         if (die1 == 7) Win++;
         if (die2 == 7) Win++;
         if (die3 ==7) Win++;
+        if (die4 ==7)Win++;
      
         
         if (Win == 1){
@@ -36,6 +38,7 @@ public class Lucky7 {
             System.out.println("You won 3e!");
             System.out.println();
         }
+        
 
         else if (Win == 2){
             System.out.println("You made a bigger pot! You won 5e!" );
@@ -49,6 +52,8 @@ public class Lucky7 {
             System.out.println("You hit the Jackpot of 10e!");
             System.out.println();
         } 
+        
+        
         else
         {
             System.out.println("You lose!");
